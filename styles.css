@@ -178,11 +178,11 @@ a {
   color: rgb(255, 230, 167);
 }
 
-.space {
-  height: 5rem;
-}
-
 @media screen and (max-width: 800px) {
+
+  *{
+    scroll-margin-top : 20vh ;
+  }
   .product-container {
     grid-template-columns: minmax(275px, 75%);
     justify-content: center;
