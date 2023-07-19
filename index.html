@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product listing page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <img
+        src="https://logodix.com/logo/1694758.jpg"
+        alt="brand-logo"
+        id="header-img"
+      />
+      <span class="brand-name">Bharat Rice</span>
+      <nav id="nav-bar">
+        <ul>
+          <li class="list-item-inline">
+            <a href="#qualities" class="nav-link">Qualities</a>
+          </li>
+          <li class="list-item-inline">
+            <a href="#how-it-works" class="nav-link">How it works</a>
+          </li>
+          <li class="list-item-inline">
+            <a href="#products" class="nav-link">Pricing</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="space"></div>
+    <main>
+      <form action="https://www.freecodecamp.org/email-submit" id="form">
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email"
+          id="email"
+        /><input type="submit" value="Get Start" />
+      </form>
+
+      <div class="product-qualities" id="qualities">
+        <div class="quality">
+          <p>
+            It is whole grain, meaning it has the bran and germ intact, unlike
+            white rice, which is refined and polished.
+          </p>
+        </div>
+        <div class="quality">
+          <p>
+            It is rich in antioxidants, especially if it has a dark color, such
+            as black or red rice. Antioxidants protect cells from oxidative
+            stress and inflammation, which can lead to chronic diseases.
+          </p>
+        </div>
+        <div class="quality">
+          <p>
+            It is free of additives and preservatives, which can affect the
+            taste, texture, and shelf life of rice.
+          </p>
+        </div>
+        <div class="quality">
+          <p>
+            It is organic, meaning it is grown without the use of synthetic
+            pesticides or fertilizers, which can leave residues on the rice and
+            harm the environment.
+          </p>
+        </div>
+      </div>
+
+      <div id="how-it-works">
+        <iframe
+          src="https://youtube.com/"
+          height="300"
+          width="420"
+          frameborder="0"
+        ></iframe>
+      </div>
+
+      <div class="product-container" id="products">
+        <div class="product">
+          <div class="img-container">
+            <img
+              loading="lazy"
+              src="https://5.imimg.com/data5/SELLER/Default/2020/9/RR/YM/YE/105887134/1121-sella-basmati-rice-500x500.jpg"
+              alt="basmati rice"
+            />
+          </div>
+
+          <p>Basmati Rice</p>
+          <span class="price">300$</span>
+        </div>
+        <div class="product">
+          <div class="img-container">
+            <img
+              loading="lazy"
+              src="https://ricestores.in/wp-content/uploads/2020/07/Sona-masoori-rice-sample-1-compressed.jpg"
+              alt="Sona Masoori rice"
+            />
+          </div>
+          <p>Sona Masoori Rice</p>
+          <span class="price">210$</span>
+        </div>
+        <div class="product">
+          <div class="img-container">
+            <img
+              loading="lazy"
+              src="https://5.imimg.com/data5/SELLER/Default/2021/3/JQ/PR/AV/84237016/seeraga-samba-rice.jpg"
+              alt="Seeraga Samba rice"
+            />
+          </div>
+          <p>Seeraga Samba Rice</p>
+          <span class="price">120$</span>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <ul>
+        <li class="list-item-inline"><a href="#">Privacy</a></li>
+        <li class="list-item-inline"><a href="#">Terms</a></li>
+        <li class="list-item-inline"><a href="#">Contact</a></li>
+      </ul>
+      <p>Copyright 2023, Bharat Rice</p>
+    </footer>
+  </body>
+</html>
