@@ -180,3 +180,15 @@ a {
 .space {
   height: 5rem;
 }
+
+
+@media screen and (max-width: 800px) {
+  .product-container {
+    grid-template-columns: minmax(275px, 75%);
+    justify-content: center;
+  }
+
+  header {
+    flex-direction: column;
+  }
+}
